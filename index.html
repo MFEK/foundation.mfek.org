@@ -37,14 +37,17 @@
         font-size: x-small;
         width: 150px;
     }
-    #fred {
-        background-size: 150px;
-    }
     @media only screen and (min--moz-device-pixel-ratio: 1.0), (min-device-pixel-ratio: 1.0), (-webkit-min-device-pixel-ratio: 1.0) {
-        #fred { background: url('/media/fred💸.webp'); }
+        #fred {
+            background: url('./media/fred💸.webp');
+            background-size: cover;
+        }
     }
     @media only screen and (max--moz-device-pixel-ratio: 1.0), (max-device-pixel-ratio: 1.0), (-webkit-max-device-pixel-ratio: 1.0) {
-        #fred { background: url('/media/fred💸150.webp'); }
+        #fred {
+            background: url('./media/fred💸150.webp');
+            background-size: cover;
+        }
     }
 </style>
     </head>
